@@ -15,49 +15,20 @@
 }
 
 .signIn-container{
-    /* background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Image/signImage.png);
-    background-size: cover;
-    height: 170vh;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    border: 2px solid rgb(2, 0, 128); */
-
     width: 100%;
-    /* height: 100vh; */
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Image/signImage.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    /* padding: 10px 8%; */
     position: relative;
-    /* background-color: none; */
-    /* padding: 10px 8%; */
-}
-
-.form{
-    /* padding: 20px 30% 0 60%; */
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 50vh;
-    align-items: center; */
-    border: 2px solid #41e115;
 }
 
 form{
-    /* border: 2px solid #fff; */
-    /* padding: 20px 50%; */
-    /* padding: 20px;
-    display: flex;
-    flex-direction: column; */
-    /* align-items: center; */
-    /* justify-content: center; */
     background: rgba(0, 0, 0, 0.681);
     margin-bottom: 10%;
-    width: 30%;
+    width: 50%;
     margin: 50px auto;
     padding: 30px;
-    /* width: 35%; */
 }
 
 form h1{
@@ -79,8 +50,7 @@ form h1{
 }
 
 form .signIn-btn{
-    /* width: 85%; */
-    padding: 15px 35%;
+    padding: 15px 40%;
     text-align: center;
     margin-left: 13px;
     margin-top: 30px;
@@ -97,8 +67,6 @@ form .signIn-btn{
     margin-top: 10px;
     margin-bottom: 30px;
     position: relative;
-    /* display: flex;
-    justify-content: space-between; */
     padding: 20px;
     color: #fff;
 }
@@ -115,23 +83,28 @@ form .signIn-btn{
     cursor: pointer;
 }
 
+.sign-footer nav{
+    display: flex;
+}
+
+.sign-footer nav p{
+    margin-left: 10px;
+}
+
 .sign-footer, nav p, .sign-footer nav a{
     color: gray;
     font-weight: 700;
 }
 
 .sign-footer a{
-    /* color: #fff; */
     text-decoration: none;
 }
 
 .sign-footer nav{
-    /* color: #fff; */
     margin-bottom: 14px;
 }
 
 .sign-footer nav a{
-    /* color: #fff; */
     text-decoration: none;
 }
 
@@ -155,16 +128,10 @@ form .signIn-btn{
     margin-bottom: 30px;
 }
 
-
-
-
 footer{
     padding: 50px 15% 10px;
-    /* border-top: 6px solid #333333d3; */
     color: #777777;
     background: rgba(0, 0, 0, 0.801);
-    /* opacity: 80%; */
-    /* border: 2px solid red; */
 }
 
 footer h2{
@@ -194,7 +161,6 @@ footer .row{
     align-items: center;
     flex-wrap: wrap;
     padding: 50px 0;
-    /* border-top: 6px solid #333; */
 }
 
 footer .lang-btn{
@@ -202,6 +168,10 @@ footer .lang-btn{
     background: transparent;
     padding: 10px 20px;
     border-radius: 3px;
+}
+
+.facebook-logo{
+    width: 25px;
 }
 
 .lang-btn img{
@@ -213,4 +183,16 @@ footer .lang-btn{
     font-size: 14px;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+@media(max-width:720px){
+    form{
+     width: 70%;
+    }
+}
+
+@media(max-width:480px){
+    form{
+     width: 90%;
+    }
 }
