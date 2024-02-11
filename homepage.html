@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="navigation logo">
+                <img src="Image/logo.png" alt="logo">
+            
+
+                <nav>
+                        <a href="#">Ana Sayfa</a>
+                        <a href="#">Diziler</a>
+                        <a href="#">Filmler</a>
+                        <a href="#">Yeni ve Popüler</a>
+                        <a href="#">Listem</a>
+                </nav>
+            </div>
+
+            <div class="search-notify-container">
+                <div class="search">
+                    <i class="bx bx-search"></i>
+                </div>
+                <div class="search">
+                    <p>ÇOCUK</p>
+                </div>
+                <div class="search">
+                    <i class="bx bx-gift"></i>
+                </div>
+                <div class="search">
+                    <i class="bx bx-bell"></i>
+                </div>
+                <div class="search proilfe-image">
+                        <img src="Image/avatar-4.png" alt="" class="profile" onclick="profile()">
+                        <img src="Image/down-icon.png" alt="" class="dropdown" onclick="profile()">
+                </div>
+            </div>
+
+            <div class="hamburgers">
+                <i class="bx bx-menu" id="icon" onclick="mobileLink()"></i>
+                <!-- <i class="bx bx-x cancel" id="cancel" onclick="mobileClose()"></i> -->
+            </div>
+        </div>
+
+        <div class="hamburger" id="show">
+            <!-- <i class="bx bx-menu" id="Icon" onclick="mobileLink()"></i> -->
+            <ul class="main-menu"  >
+                <i class="bx bx-x cancel" id="cancel" onclick="mobileClose()"></i>
+                <li><a href="#">Ana Sayfa</a></li>
+                <li><a href="#">Diziler</a></li>
+                <li><a href="#">Filmier</a></li>
+                <li><a href="#">Yeni ve Populer</a></li>
+                <li><a href="#">Listem</a></li>
+               </ul>
+        </div>
+    </header>
+
+     <main>
+        <div class="hero-container">
+            <h1>YANIMDA<span>KAL</span></h1>
+            
+            
+            <div class="movie-text">
+                <div class="movie-span">
+                    <img src="./Image/top10.jpg" alt="">
+                    <span>Türkiye’de Bugün 4 Numara</span>
+                </div>
+               
+                <p>Küçük yaşta başının çaresine bakmayı öğrenen ve çok çalışarak iş dünyasında önemli bir konuma gelen Emir, bir gün sokak şarkıcısı bir kızla karşılaşır ve hayatı değişir.</p>
+            </div>
+
+            <div class="button-class">
+                <button class="lang-btn"><i class="bx bx-play" id="play"></i>Oynat</button>
+
+                <button class="sign-in">Daha Fazla Bilgi</button>
+            </div>
+
+            <div class="movies-container container-1">
+                <div>
+                    <button class="icon-left" onclick="firstRight()"><i class="bx bx-chevrons-left"></i></button>
+                </div>
+                <h3>Netflix'te Popüler</h3>
+
+                
+                <div class="movies-playlist" id="playlist-1">
+                    <div class="movies">
+                        <img src="./Image/flex10.png" alt="">
+                    </div>
+
+                    <div class="movies">
+                        <img src="./Image/flex9.png" alt="">
+                    </div>
+
+                    <div class="movies">
+                        <img src="./Image/flex8.png" alt="">
+                    </div>
+
+                    <div class="movies">
+                        <img src="./Image/flex7.png" alt="">
+                    </div>
+
+                    <div class="movies">
+                        <img src="./Image/flex6.png" alt="">
+                    </div>
+
+                    <div class="movies">
+                        <img src="./Image/flex5.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex4.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex3.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex2.png" alt="">
+                    </div>
+    
+                    <div class="movies">
+                        <img src="./Image/flex1.png" alt="">
+                    </div>
+                </div>
+
+                <div>
+                    <button class="icon-right" onclick="firstLeft()"><i class="bx bx-chevrons-right"></i></button>
+                </div>
+            </div>
+        </div>
+
+            <div class="movies-container container-2">
+                <div>
+                    <button class="icon-left" onclick="secondRight()"><i class="bx bx-chevrons-left"></i></button>
+                </div>
+                <h3>Netflix'te Popüler</h3>
+
+                
+                <div class="movies-playlist playlist-2">
+                    <div class="movies">
+                        <img src="./Image/flex5.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex4.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex3.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex2.png" alt="">
+                    </div>
+    
+                    <div class="movies">
+                        <img src="./Image/flex1.png" alt="">
+                    </div>
+
+                    <div class="movies">
+                        <img src="./Image/flex5.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex4.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex3.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex2.png" alt="">
+                    </div>
+    
+                    <div class="movies">
+                        <img src="./Image/flex1.png" alt="">
+                    </div>
+                </div>
+
+                <div>
+                    <button class="icon-right" onclick="secondLeft()"><i class="bx bx-chevrons-right"></i></button>
+                </div>
+            </div>
+
+            <div class="movies-container container-3">
+                <div>
+                    <button class="icon-left" onclick="thirdRight()"><i class="bx bx-chevrons-left"></i></button>
+                </div>
+                <h3>Netflix'te Popüler</h3>
+
+                
+                <div class="movies-playlist playlist-3">
+                    <div class="movies">
+                        <img src="./Image/flex10.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex13.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex9.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex12.png" alt="">
+                    </div>
+    
+                    <div class="movies">
+                        <img src="./Image/flex11.png" alt="">
+                    </div>
+
+                    <div class="movies">
+                        <img src="./Image/flex5.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex4.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex3.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex2.png" alt="">
+                    </div>
+    
+                    <div class="movies">
+                        <img src="./Image/flex1.png" alt="">
+                    </div>
+                </div>
+
+                <div>
+                    <button class="icon-right" onclick="thirdLeft()"><i class="bx bx-chevrons-right"></i></button>
+                </div>
+            </div>
+
+            <div class="movies-container container-4">
+                <div>
+                    <button class="icon-left" onclick="fourthRight()"><i class="bx bx-chevrons-left"></i></button>
+                </div>
+                <h3>Netflix'te Popüler</h3>
+
+                
+                <div class="movies-playlist playlist-4">
+                    <div class="movies">
+                        <img src="./Image/origin5.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/origin4.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/origin3.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/origin2.png" alt="">
+                    </div>
+    
+                    <div class="movies">
+                        <img src="./Image/origin1.png" alt="">
+                    </div>
+                
+
+                    <div class="movies">
+                        <img src="./Image/flex5.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex4.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex3.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex2.png" alt="">
+                    </div>
+    
+                    <div class="movies">
+                        <img src="./Image/flex1.png" alt="">
+                    </div>
+                </div>
+
+                <div>
+                    <button class="icon-right" onclick="fourthLeft()"><i class="bx bx-chevrons-right"></i></button>
+                </div>
+            </div>
+
+            <div class="movies-container container-5">
+                <div>
+                    <button class="icon-left" onclick="fifthRight()"><i class="bx bx-chevrons-left"></i></button>
+                </div>
+                <h3>Netflix'te Popüler</h3>
+
+                
+                <div class="movies-playlist playlist-5">
+                    <div class="movies">
+                        <img src="./Image/flex10.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex13.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex9.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex12.png" alt="">
+                    </div>
+    
+                    <div class="movies">
+                        <img src="./Image/flex11.png" alt="">
+                    </div>
+
+                    <div class="movies">
+                        <img src="./Image/flex5.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex4.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex3.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex2.png" alt="">
+                    </div>
+    
+                    <div class="movies">
+                        <img src="./Image/flex1.png" alt="">
+                    </div>
+                </div>
+
+                <div>
+                    <button class="icon-right" onclick="fifthLeft()"><i class="bx bx-chevrons-right"></i></button>
+                </div>
+            </div>
+
+
+            <div class="movies-container container-6">
+                <div>
+                    <button class="icon-left" onclick="sixthRight()"><i class="bx bx-chevrons-left"></i></button>
+                </div>
+                <h3>Netflix'te Popüler</h3>
+
+                <div class="movies-playlist playlist-6">
+                    <div class="movies">
+                        <img src="./Image/origin5.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/rank5.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/origin3.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/rank4.png" alt="">
+                    </div>
+    
+                    <div class="movies">
+                        <img src="./Image/origin1.png" alt="">
+                    </div>
+                
+
+                    <div class="movies">
+                        <img src="./Image/rank3.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex4.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/rank2.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex2.png" alt="">
+                    </div>
+    
+                    <div class="movies">
+                        <img src="./Image/rank1.png" alt="">
+                    </div>
+                </div>
+
+                <div>
+                    <button class="icon-right" onclick="sixthLeft()"><i class="bx bx-chevrons-right"></i></button>
+                </div>
+            </div>
+            
+
+
+            <div class="movies-container container-7">
+                <div>
+                    <button class="icon-left" onclick="seventhRight()"><i class="bx bx-chevrons-left"></i></button>
+                </div>
+                <h3>Netflix'te Popüler</h3>
+
+                
+                <div class="movies-playlist playlist-7">
+                    <div class="movies">
+                        <img src="./Image/flex22.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex21.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex20.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex19.png" alt="">
+                    </div>
+    
+                    <div class="movies">
+                        <img src="./Image/flex18.png" alt="">
+                    </div>
+
+                    <div class="movies">
+                        <img src="./Image/flex5.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex4.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex3.png" alt="">
+                    </div>
+        
+                    <div class="movies">
+                        <img src="./Image/flex2.png" alt="">
+                    </div>
+    
+                    <div class="movies">
+                        <img src="./Image/flex1.png" alt="">
+                    </div>
+                </div>
+
+                <div>
+                    <button class="icon-right" onclick="seventhLeft()"><i class="bx bx-chevrons-right"></i></button>
+                </div>
+            </div>
+     </main>
+
+    <footer>
+        <h2>Questions? call 000-000-000-000</h2>
+    
+            <div class="row">
+                <div class="col">
+                    <a href="#">Seslendirme ve Alt Yazı</a>
+                    <a href="#">Medya Merkezi</a>
+                    <a href="#">Gizlilik</a>
+                    <a href="#">Bize Ulaşın</a>
+                </div>
+    
+                <div class="col">
+                    <a href="#">Sesli Betimleme</a>
+                    <a href="#">Yatırımcı İlişkileri</a>
+                    <a href="#">Yasal Hükümler</a>
+                </div>
+    
+                <div class="col">
+                    <a href="#">Yardım Merkezi</a>
+                    <a href="#">İş İmkanları</a>
+                    <a href="#">Çerez Tercihleri</a>
+                </div>
+    
+                <div class="col">
+                    <a href="#">Hediye Kartları</a>
+                    <a href="#">Kullanım Koşulları</a>
+                    <a href="#">Kurumsal Bilgiler</a>
+                </div>
+            </div>
+    
+            <button class="lang-btn">Hizmet Kodu</button>
+    
+            <p class="copyright-text">© 1997-2021 Netflix, Inc.  {i-062d573a0ee099242}</p>
+        </footer>
+
+        <script src="script.js">
+        </script> 
+</body>
+</html>

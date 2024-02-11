@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 10px 2%;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+
+.signIn-container{
+    /* background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Image/signImage.png);
+    background-size: cover;
+    height: 170vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border: 2px solid rgb(2, 0, 128); */
+
+    width: 100%;
+    /* height: 100vh; */
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(Image/signImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* padding: 10px 8%; */
+    position: relative;
+    /* background-color: none; */
+    /* padding: 10px 8%; */
+}
+
+.form{
+    /* padding: 20px 30% 0 60%; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    align-items: center; */
+    border: 2px solid #41e115;
+}
+
+form{
+    /* border: 2px solid #fff; */
+    /* padding: 20px 50%; */
+    /* padding: 20px;
+    display: flex;
+    flex-direction: column; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    background: rgba(0, 0, 0, 0.681);
+    margin-bottom: 10%;
+    width: 30%;
+    margin: 50px auto;
+    padding: 30px;
+    /* width: 35%; */
+}
+
+form h1{
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.input-password{
+    margin: 10px;
+}
+
+.input-password input{
+    padding: 15px;
+    width: 90%;
+    border: 0;
+    outline: 0;
+    background-color: rgb(38, 35, 35);
+}
+
+form .signIn-btn{
+    /* width: 85%; */
+    padding: 15px 35%;
+    text-align: center;
+    margin-left: 13px;
+    margin-top: 30px;
+    background-color: red;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.remember-me{
+    border: 2px solid red;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    /* display: flex;
+    justify-content: space-between; */
+    padding: 20px;
+    color: #fff;
+}
+
+.remember{
+    position: absolute;
+    left: 30px;
+    cursor: pointer;
+}
+
+.needHelp{
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+}
+
+.sign-footer, nav p, .sign-footer nav a{
+    color: gray;
+    font-weight: 700;
+}
+
+.sign-footer a{
+    /* color: #fff; */
+    text-decoration: none;
+}
+
+.sign-footer nav{
+    /* color: #fff; */
+    margin-bottom: 14px;
+}
+
+.sign-footer nav a{
+    /* color: #fff; */
+    text-decoration: none;
+}
+
+.sign-footer .text{
+    font-size: 15px;
+}
+
+.sign-footer .text a{
+    color: blue;
+    font-weight: 300;
+}
+
+.sign-footer #text a{
+    color: #fff;
+}
+
+.sign-footer #text{
+    margin-bottom: 15px;
+}
+.sign-footer .text{
+    margin-bottom: 30px;
+}
+
+
+
+
+footer{
+    padding: 50px 15% 10px;
+    /* border-top: 6px solid #333333d3; */
+    color: #777777;
+    background: rgba(0, 0, 0, 0.801);
+    /* opacity: 80%; */
+    /* border: 2px solid red; */
+}
+
+footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+ footer .col{
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+footer .col a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+footer .row{
+    align-items: flex-start;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    /* border-top: 6px solid #333; */
+}
+
+footer .lang-btn{
+    color: #ffffff;
+    background: transparent;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.lang-btn img{
+    width: 10px;
+    margin-left: 10px;
+}
+
+.copyright-text{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
