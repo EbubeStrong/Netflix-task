@@ -110,6 +110,7 @@ nav button{
     font-size: 16px;
     cursor: pointer;
     padding: 15px 30px;
+    white-space: nowrap;
 }
 
 .row{
@@ -155,10 +156,6 @@ nav button{
 .text-col .kids-watch{
     width: 70%;
 }
-
-/* .features p{
-    border: 2px solid #fff;
-} */
 
 .features .third-text{
     font-size: 20px;
@@ -281,7 +278,7 @@ footer .lang-btn{
     margin-bottom: 10px;
 }
 
-@media only screen and (max-width:600px){
+@media(max-width:600px){
     .logo{
         width: 100px;
     }
@@ -299,8 +296,16 @@ footer .lang-btn{
     .header-content h1{
         font-size: 40px;
     }
+    .email-signUp{
+        overflow:visible;
+        margin: 30px 10px;
+        
+    }
     .email-signUp button{
-        font-size: 12px;
+        font-size: 20px;
+        flex: 1;
+        white-space: wrap;
+        width: 50%;
         padding: 10px 15px;
     }
     .text-col, .img-col{
