@@ -60,6 +60,7 @@ form .signIn-btn{
     outline: 0;
     cursor: pointer;
     font-size: 15px;
+    white-space: nowrap;
 }
 
 .remember-me{
@@ -109,6 +110,7 @@ form .signIn-btn{
 
 .sign-footer .text{
     font-size: 15px;
+    width: 50%
 }
 
 .sign-footer .text a{
