@@ -112,34 +112,16 @@ nav button{
     padding: 15px 30px;
 }
 
-.features{
-    /* padding: 50px 12%; */
-    /* border-top: 6px solid #333; */
-    /* border: 2px solid violet; */
-}
-
 .row{
-    /* padding: 50px 12%; */
-    /* display: flex;
-    flex-direction: row-reverse;
-    width: 100%;
-    align-items: center;
-    justify-content: center; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 50px 0;
     border-top: 6px solid #333;
-    /* border: 2px solid hotpink; */
-    /* margin: 5px auto; */
-}
-hr{
-    /* width: 100%; */
 }
 
 .text-col{
-    border: 2px solid hotpink;
     flex-basis: 50%;
     margin-bottom: 20px;
     padding: 20px 0;
@@ -166,22 +148,20 @@ hr{
 
 .features h2{
     font-size: 50px;
-    /* flex-basis: 50%;
-    width: 65%; */
-    /* width: 100%; */
     font-weight: 600;
     margin-bottom: 20px;
-    border: 2px solid green;
 }
 
 .text-col .kids-watch{
     width: 70%;
 }
 
-.features p{
-    /* width: 65%;
-    font-size: 20px; */
+/* .features p{
     border: 2px solid #fff;
+} */
+
+.features .third-text{
+    font-size: 20px;
 }
 
 .faq{
@@ -325,6 +305,9 @@ footer .lang-btn{
     }
     .text-col, .img-col{
         flex-basis: 100%;
+    }
+    .text-col{
+        align-items: center;
     }
     .features h2{
         font-size: 30px;
