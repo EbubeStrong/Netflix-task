@@ -123,6 +123,7 @@ nav button{
     flex-wrap: wrap;
     padding: 50px 0;
     border-top: 6px solid #333;
+    margin-top:10%;
 }
 
 .text-col{
