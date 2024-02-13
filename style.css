@@ -13,7 +13,7 @@ body{
 
 .header{
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://s3-alpha-sig.figma.com/img/ad8a/4e42/bd61de4608a61f94c66215df741f2e79?Expires=1708300800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ouo8v~0FgGIabfFbr0YevMDSvvuUu2o7Jj6V1dWW627o8mpWmyeQr97UvyjQPBJorMweTllVrFSzr2SRgqag05ayDQUzMPCKLKp-GcjEdok-RywqFqqnm8Q8JxNqGVVBKgW-TOvMtcRsKLhNblPfyIpGngxaP~zAvgpeau1XBfwh0D8qoYAlvOSUo1c5ORcf~9dsHxqgteiq7igYyvgWJ1qA3-IyPton6d5XCaLrpIYJjMkMW3-SeWKwNMNWkU-ysa9ONi0nX6R9cDxrOF36RwiAClN~17av9EHsNamPnmMki7gd5reyeBv-8MdRbgU6qVJnvArdvlgcpSBsLGFfew__);
     background-repeat: no-repeat;
     background-size: cover;
@@ -293,6 +293,9 @@ footer .lang-btn{
     }
 }
 @media(max-width:600px){
+     .header{
+          height: 80vh;
+     }
     .logo{
         width: 100px;
     }
@@ -320,7 +323,7 @@ footer .lang-btn{
         flex: 1;
         white-space: nowrap;
         width: 50%;
-        padding: 10px 15px;
+        padding: 20px 15px;
     }
     .text-col, .img-col{
         flex-basis: 100%;
