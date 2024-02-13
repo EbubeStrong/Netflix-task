@@ -73,17 +73,27 @@ function seventhLeft(){
     right.scrollBy(-350, 0)
 }
 
-function mobileLink(){
-let mobile = document.getElementById("show");
-mobile.style.display = 'block'
-if(mobile.checked){
-mobile.style.display = 'none'
-}else{
-mobile.style.display = 'block'
-}
+function openNav(){
+    document.getElementById("myNav").style.width = "100%";
+    document.getElementById("myNav").style.height = "60%";
 }
 
-function mobileClose(){
-let mobile = document.getElementById("show");
-mobile.style.transform="translate(-100%)  ";
+function closeNav(){
+    document.getElementById("myNav").style.width = "0%";
 }
+
+const loginForm =document.getElementById('loginForm');
+const emailInput = document.getElementById('emailInput');
+const checkBox = document.getElementById('remember');
+const passwordInput = document.getElementById('passwordInput');
+
+loginForm.addEventListener('submit', function(event){
+    event.preventDefault();
+    if(emailInput.value === '' || passwordInput.value === ''){
+        alert('Please fill in all the required fields.');
+    }else if(!checkBox.checked){
+        alert('Please click on the checkbox')
+    }else{
+        window.location.href = 'user-page.html'
+    }
+});
