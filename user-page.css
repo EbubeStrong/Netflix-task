@@ -18,6 +18,7 @@ body{
 
 .users-container{
     width: 100%;
+    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,15 +42,15 @@ body{
 
 .user-profile .user button{
     width: 100px;
-    height: 105px;
+    height: 100px;
     margin-left: 30px;
     background-color: #000;
-    /* padding: 20px; */
     border: 5px outset grey;
     border-radius: 50%;
     cursor: pointer;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .user-profile .user .add-icon{
@@ -83,33 +84,54 @@ body{
     .logo{
         padding: 20px 5% 5% 5%;
     }
-    .users-container{
-        flex-direction: column;
-        padding-top: 100%;
-    }
-
-    .user-profile{
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
-
     .user-profile .user img{
-        margin: 10px 0;
-        width: 150px;
+        width: 70px;
     }
     .user-profile .user button{
-        width: 200px;
-        margin-top: 30px;
+        width: 70px;
+        height: 70px;
     }
     .user-profile .user .add-icon{
-        font-size: 200px;
+        font-size: 70px;
     }
 }
 
 @media(max-width: 600px){
     .logo{
         padding: 20px 5% 10% 5%;
+    }
+    
+}
+@media(max-width: 521px){
+    .users-container{
+        padding: 10% 0;
+        height:fit-content;
+    }
+    .users-container h1{
+        margin-top: 40px;
+        text-align: center;
+        width: 100%;
+    }
+    .user-profile{
+        flex-direction: column;
+        padding: 20px;
+        width: 100%;
+        align-items: center;
+    }
+    .user{
+        margin-top: 10%;
+    }
+    .user-profile .user img{
+        width: 150px;
+    }
+    .user-profile .user button{
+        width: 200px;
+        height: 200px;
+    }
+    .user-profile .user .add-icon{
+        font-size: 200px;
+    }
+    .user-profile  .user p{
+        font-size: 30px;
     }
 }
