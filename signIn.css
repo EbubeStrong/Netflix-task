@@ -52,7 +52,6 @@ fieldset{
     margin-bottom: 20px;
     border-radius: 4px;
     width: 100%;
-    padding: 15px;
     border: 0;
     outline: 0;
     background-color: rgb(38, 35, 35);
@@ -236,9 +235,43 @@ footer .lang-btn{
     .logo{
         width: 150px;
     }
+    fieldset{
+        width: 300px;
+    }
+    .input-box input{
+        padding: 7px 0;
+    }
+    .input-box input[type='email'], .input-box input[type='password']{
+        padding: 10px;
+    }
+    form .signIn-btn{
+        padding: 10px;
+    }
     footer .row{
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
+    }
+ }
+
+ @media(max-width:325px){
+    .logo{
+        width: 100px;
+    }
+    fieldset{
+        width: 200px;
+    }
+    .input-box input{
+        padding: 5px 0;
+    }
+    .input-box input[type='email'], .input-box input[type='password']{
+        padding: 5px;
+    }
+    form .signIn-btn{
+        padding: 5px;
+    }
+    .remember-text span{
+        display: block;
+        text-align:left;
     }
  }
