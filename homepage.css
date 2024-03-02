@@ -33,6 +33,7 @@ header .hamburgers{
 /*     border: 2px solid green; */
     background-color: #fff;
     position: relative;
+    display: none;
     /* display: none; */
 }
 
@@ -196,7 +197,7 @@ nav a{
 }
 
 .button-class{
-    border: 2px solid red;
+/*     border: 2px solid red; */
     display: flex;
 }
 
