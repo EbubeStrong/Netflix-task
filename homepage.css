@@ -30,7 +30,7 @@ header .header{
 }
 
 header .hamburgers{
-    border: 2px solid green;
+/*     border: 2px solid green; */
     background-color: #fff;
     position: relative;
     /* display: none; */
@@ -161,7 +161,7 @@ nav a{
 }
 
 .hero-container h1{
-    border: 2px solid blue;
+/*     border: 2px solid blue; */
     font-weight: 500;
     font-size: 70px;
 }
@@ -173,7 +173,7 @@ nav a{
 }
 
 .movie-text .movie-span{
-    border: 2px solid green;
+/*     border: 2px solid green; */
     display: flex;
     align-items: center;  
 }
